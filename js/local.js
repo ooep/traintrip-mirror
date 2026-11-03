@@ -47,6 +47,14 @@
         if (modal) modal.style.display = "none";
       });
     });
+    // 玩法指南的「跳过」/「开始」按钮：关闭教程层
+    document.querySelectorAll(".skip-button, .start-button, .is-skip, .tutorial .close").forEach(function (el) {
+      el.addEventListener("click", function () {
+        var layer = el.closest("section, .c-popupModal, .c-overlayModal, .tutorial, .howto");
+        if (layer) layer.style.display = "none";
+        else el.style.display = "none";
+      });
+    });
   }
 
   /* ---------- 登录页本地化（移除登录验证） ---------- */
