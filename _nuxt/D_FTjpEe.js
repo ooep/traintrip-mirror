@@ -1,0 +1,1 @@
+import{J as e}from"./aQXJm_Rv.js";const d=()=>{const n=e("globalWindowsWidth",()=>0),i=e("globalWindowsHeight",()=>0),o=e("globalWindowsContentsHeight",()=>0);return{resize:()=>{n.value=window.innerWidth,i.value=window.innerHeight;const t=document.getElementById("menuBtn");t&&(o.value=window.innerHeight-t.clientHeight)}}};export{d as u};

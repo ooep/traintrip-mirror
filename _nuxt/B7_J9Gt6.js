@@ -1,0 +1,1 @@
+import{J as l}from"./aQXJm_Rv.js";const g=()=>{const o=l("isGlobalMenuOpen",()=>!1),e=l("globalMenuColor",()=>"white");return{open:()=>{o.value=!0},close:()=>{o.value=!1},toggle:()=>{o.value=!o.value},changeColor:s=>{e.value=s},restoreColor:()=>{e.value="white"}}};export{g as u};

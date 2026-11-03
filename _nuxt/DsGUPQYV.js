@@ -1,0 +1,1 @@
+import{e as o,o as t,c as n,aw as a}from"./aQXJm_Rv.js";const s={class:"main"},p={__name:"pc",setup(r){return o(()=>{window.oncontextmenu=function(e){return e.preventDefault(),e.stopPropagation(),!1}}),(e,c)=>(t(),n("main",s,[a(e.$slots,"default")]))}};export{p as default};
